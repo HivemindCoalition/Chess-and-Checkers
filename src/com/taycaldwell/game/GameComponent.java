@@ -7,6 +7,17 @@ import javax.swing.*;
 import java.io.*;
 import com.taycaldwell.game.RuleSet;
 
+/**
+ * =============Developers=============
+ * Taylor Caldwell - tcaldwel@nmsu.edu
+ * William Kluegel -
+ * Carl Williams -
+ * ====================================
+ * Do not reuse this code in any projects.
+ * 
+ */
+ 
+
 public class GameComponent extends Canvas implements Runnable, MouseListener, MouseMotionListener, KeyListener
 {
 	
