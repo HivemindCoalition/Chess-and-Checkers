@@ -7,4 +7,4 @@ This game was developed from scratch using the standard java libraries.
 
 #Play
 
-[Download](https://www.dropbox.com/s/vhwd8rp07ftnrpg/chess-checkers-game.jar) and run the jar file.
+[Download](https://dl.dropboxusercontent.com/s/vhwd8rp07ftnrpg/chess-checkers-game.jar?dl=1&token_hash=AAE4530I8JEuQoYMaTDrkMpiVhZ6770y_z78JTVlsktAMg) and run the jar file.
