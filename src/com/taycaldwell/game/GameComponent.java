@@ -7,17 +7,6 @@ import javax.swing.*;
 import java.io.*;
 import com.taycaldwell.game.RuleSet;
 
-/**
- * =============Developers=============
- * Taylor Caldwell - tcaldwel@nmsu.edu
- * William Kluegel -
- * Carl Williams -
- * ====================================
- * Do not reuse this code in any projects.
- * 
- */
- 
-
 public class GameComponent extends Canvas implements Runnable, MouseListener, MouseMotionListener, KeyListener
 {
 	
@@ -249,18 +238,28 @@ public class GameComponent extends Canvas implements Runnable, MouseListener, Mo
 			g.setFont(new Font("Arial", Font.PLAIN, 40));
 			if(winner == 0)
 			{
-				g.setColor(Color.BLACK);
-				g.drawString("PLAYER BLACK IS THE WINNER!", 65, 410);
+				if(gameMode == "Checkers"){
+					g.setColor(Color.BLACK);
+					g.drawString("PLAYER BLACK IS THE WINNER!", 95, 410);
+				}
+				else
+				{
+					g.setColor(Color.WHITE);
+					g.drawString("PLAYER WHITE IS THE WINNER!", 95, 410);
+				}
 			}
+				
 			else if(winner == 1)
 			{	
-				if(gameMode == "Checkers"){
+				if(gameMode == "Checkers")
+				{
 					g.setColor(Color.RED);
 					g.drawString("PLAYER RED IS THE WINNER!", 95, 410);
 				}
-				else{
-					g.setColor(Color.WHITE);
-					g.drawString("PLAYER WHITE IS THE WINNER!", 95, 410);
+				else
+				{
+					g.setColor(Color.BLACK);
+					g.drawString("PLAYER BLACK IS THE WINNER!", 95, 410);
 				}
 			}
 		}
@@ -423,6 +422,7 @@ public class GameComponent extends Canvas implements Runnable, MouseListener, Mo
 						if(j == 0 && board.board[i][j].type == 0){
                             board.board[i][j].type = 4;
                         }
+						
 						pieceSelected = false;
 						board.board[i][j].selected = false;
 						
@@ -436,7 +436,12 @@ public class GameComponent extends Canvas implements Runnable, MouseListener, Mo
 							{
 								winner = currentPlayer();
 							}
+						} 
+						else if(RuleSet.inCheck(board2, currentPlayer(), gameMode)){
+							winner = otherPlayer();
 						}
+						
+						else{}
 						
 						board2.rotateBoard();
 						
@@ -525,7 +530,9 @@ public class GameComponent extends Canvas implements Runnable, MouseListener, Mo
 					turnCounter = 0;
 					jumpCheck = false;
 					pieceSelected = false;
-					board.board[pieceX][pieceY].selected = false;
+					if(board.board[pieceX][pieceY] != null){
+						board.board[pieceX][pieceY].selected = false;
+					}
 				}
 				
 				else if((x > 305 && x <= 505) && (y > 570 && y <= 610))

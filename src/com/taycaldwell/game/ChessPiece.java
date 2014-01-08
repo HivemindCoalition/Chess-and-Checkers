@@ -49,7 +49,7 @@ public class ChessPiece extends Piece
 		
 		switch(player)
 		{
-			case 0: //black
+			case 1: //black
 				if(type == 0) //pawn
 				{
 					g.drawImage(Art.chessDarkPawn, (x*100)+10, (y*100)+10, 75, 75, null);
@@ -76,7 +76,7 @@ public class ChessPiece extends Piece
 				}
 				
 			break;
-			case 1: //red
+			case 0: //white
 				if(type == 0) //pawn
 				{
 					g.drawImage(Art.chessLightPawn, (x*100)+10, (y*100)+10, 75, 75, null);
@@ -101,7 +101,7 @@ public class ChessPiece extends Piece
 				{
 					g.drawImage(Art.chessLightKing, (x*100)+10, (y*100)+10, 75, 75, null);
 				}
-				//g.setColor(Color.RED);
+				
 			break;
 		}
 	}
