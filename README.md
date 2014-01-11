@@ -17,6 +17,7 @@ I will add a link to the game as an applet in the near future.
 
 ![Checkers](http://i.imgur.com/w9gigAL.png)
 
+
 ![Chess](http://i.imgur.com/zsVKUOo.png)
 
 #Notes
