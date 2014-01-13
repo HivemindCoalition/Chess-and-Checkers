@@ -9,9 +9,8 @@ Both games were made to enforce their respective official rules.
 
 #Play
 
-[Download](https://dl.dropboxusercontent.com/s/vhwd8rp07ftnrpg/chess-checkers-game.jar?dl=1&token_hash=AAE4530I8JEuQoYMaTDrkMpiVhZ6770y_z78JTVlsktAMg) and run the jar file.
-
-I will add a link to the game as an applet in the near future.
+[Web](taycaldwell.org/CCApplet.html)
+[Jar](https://dl.dropboxusercontent.com/s/vhwd8rp07ftnrpg/chess-checkers-game.jar?dl=1&token_hash=AAE4530I8JEuQoYMaTDrkMpiVhZ6770y_z78JTVlsktAMg)
 
 #Screenshots
 
