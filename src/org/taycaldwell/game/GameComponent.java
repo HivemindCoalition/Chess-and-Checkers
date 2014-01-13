@@ -616,6 +616,7 @@ public class GameComponent extends Canvas implements Runnable, MouseListener, Mo
 		}
 		turnCounter++;
 		board.rotateBoard();
+		
 	}
 	
 	/**
