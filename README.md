@@ -29,13 +29,20 @@ Both games were made to enforce their respective official rules.
 #FAQ
 
 Q: Why am I forced to make a capture in Checkers?
+
 A: This was one of the official rules our game is based around. Some versions of Checkers don't follow this rule, ours does.
 
+
 Q: Is there a single player mode?
+
 A: You can't currently play single player. We have talked about implementing single player and network multiplayer in the future, but are currently busy with other side projects. No promises.
 
+
 Q: What is the Debug Menu option, and why is it disabled?
+
 A: A menu that displayed game information and data to help us debug and develop quicker. It is disabled because it won't be of any use to you.
 
+
 Q: Can I use the source code/game art for my project?
+
 A: No.
