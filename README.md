@@ -26,4 +26,13 @@ Both games were made to enforce their respective official rules.
 - I took out a lot of the comments we used during the development process (They were too messy for my standards to publicize). If you are interested in the source that contains the developer comments, send me an email (tcaldwel@nmsu.edu). The code should be pretty straight forward, and readable otherwise.
 
 
+#FAQ
 
+Q: Why am I forced to make a capture in Checkers?
+A: This was one of the official rules our game is based around. Some versions of Checkers don't follow this rule, ours does.
+
+Q: Is there a single player mode?
+A: You can't currently play single player. We have talked about implementing single player and network multiplayer in the future, but are currently busy with other side projects. No promises.
+
+Q: Can I use the source code/game art for my project?
+A: No.
