@@ -616,7 +616,12 @@ public class GameComponent extends Canvas implements Runnable, MouseListener, Mo
 		}
 		turnCounter++;
 		board.rotateBoard();
-		
+		if(gameMode == "Checkers"){
+			if(!RuleSet.possibleMove(currentPlayer(), board) && !RuleSet.possibleCapture(currentPlayer(), board))
+			{
+				winner = ((currentPlayer() + 1) % 2);
+			}
+		}
 	}
 	
 	/**
