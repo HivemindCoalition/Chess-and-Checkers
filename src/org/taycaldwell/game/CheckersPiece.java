@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class CheckersPiece extends Piece
 {
-	//Constructor
+	
 		public CheckersPiece(int x, int y, int p)
 		{
 			super(x, y, p);
@@ -20,9 +20,7 @@ public class CheckersPiece extends Piece
 	{			
 		if(selected)
 		{
-			//g.setColor(Color.WHITE);
 			g.drawImage(Art.checkersHighlight, (x*100)+4, (y*100)+5, 85, 85, null);
-			//g.fillOval((x*100)+5, (y*100)+5, 85, 85);
 		}
 		switch(player)
 		{
@@ -35,7 +33,7 @@ public class CheckersPiece extends Piece
 				{
 					g.drawImage(Art.checkersDarkKing, (x*100)+10, (y*100)+10, 75, 75, null);
 				}
-				//g.setColor(Color.BLACK);
+			
 			break;
 			case 1:
 				if(type == 0) //pawn
@@ -46,7 +44,6 @@ public class CheckersPiece extends Piece
 				{
 					g.drawImage(Art.checkersLightKing, (x*100)+10, (y*100)+10, 75, 75, null);
 				}
-				//g.setColor(Color.RED);
 			break;
 		}
 	}
