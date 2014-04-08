@@ -1,3 +1,16 @@
+/***
+Developed By:
+Taylor Caldwell (tcaldwel@nmsu.edu)
+William Kluegel (wkluegel@nmsu.edu)
+Carl Williams (zyphrion@nmsu.edu)
+Gift Ameh (ehiameh7@nmsu.edu)
+Lauren McKim (mckiml@nmsu.edu)
+
+Please do not distribute, reuse, or copy any 
+source code without permission from one of the 
+developers.
+***/
+
 package org.taycaldwell.game;
 
 import java.awt.*;
