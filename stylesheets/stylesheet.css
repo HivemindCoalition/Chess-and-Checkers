@@ -118,7 +118,10 @@ a {
   -ms-transition: text-shadow 0.5s ease;
 }
 
-a:hover, a:focus {text-decoration: underline;}
+click {
+}
+
+click:hover, click:focus {text-decoration: underline;}
 
 footer a {
   color: #F2F2F2;
@@ -284,13 +287,17 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
+#title {
+  color: #fff;
+}
+
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: #0D0D0D;
+  background: -moz-linear-gradient(top, #252525, #0D0D0D);
+  background: -webkit-linear-gradient(top, #252525, #0D0D0D);
+  background: -ms-linear-gradient(top, #252525, #0D0D0D);
+  background: -o-linear-gradient(top, #252525, #0D0D0D);
+  background: linear-gradient(top, #252525, #0D0D0D);
 }
 
 #header_wrap .inner {
@@ -363,7 +370,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: ##0D0D0D;
 }
 
 
