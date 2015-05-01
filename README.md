@@ -8,7 +8,7 @@ Both games were made to enforce their respective official rules.
 
 #Play
 
-[Web](http://taycaldwell.com/CCApplet.html)
+[Web](http://rithms.net/CCApplet.html)
 
 [Jar](https://dl.dropboxusercontent.com/s/vhwd8rp07ftnrpg/chess-checkers-game.jar?dl=1&token_hash=AAE4530I8JEuQoYMaTDrkMpiVhZ6770y_z78JTVlsktAMg)
 
